@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-widget-material",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-widget-material-1.0.2.aar",
+          "url": "hikage-widget-material-1.0.2.aar",
+          "size": 143513,
+          "sha512": "a3319cb62030ab0ba6598131cb1b082104c165d9d8b1eba5582fcb9996414d26352df5e5da105e313bf58341351756066735b9c5e571e112c5ea3394e1f7d526",
+          "sha256": "e7527e4bdc11e03b4b1f54b98567c06b24daa221d5794f70fb2d9588aa332030",
+          "sha1": "e8f0610c0ac11d66c7391310a841a87e2df05aae",
+          "md5": "6831df0e26642a02d9eacb2e4add8975"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-widget-material-1.0.2.aar",
+          "url": "hikage-widget-material-1.0.2.aar",
+          "size": 143513,
+          "sha512": "a3319cb62030ab0ba6598131cb1b082104c165d9d8b1eba5582fcb9996414d26352df5e5da105e313bf58341351756066735b9c5e571e112c5ea3394e1f7d526",
+          "sha256": "e7527e4bdc11e03b4b1f54b98567c06b24daa221d5794f70fb2d9588aa332030",
+          "sha1": "e8f0610c0ac11d66c7391310a841a87e2df05aae",
+          "md5": "6831df0e26642a02d9eacb2e4add8975"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-widget-material-1.0.2-sources.jar",
+          "url": "hikage-widget-material-1.0.2-sources.jar",
+          "size": 65339,
+          "sha512": "02aec6a1a4db894b0ecaeb5c046620ebe4114836af684fbf0d93a10ab068aa25d5bc4fe9ccb1e5e66d3794952b6ff530ddf1c88687b6516d9b0492e4c1cc1b6f",
+          "sha256": "51aa958c93708e741cdee6b1a326be00b8a6fe361c68489b82f72a5a37dc9581",
+          "sha1": "2c106e3e55f4818032720cd46b74ec72d579d59b",
+          "md5": "008bb0dd40b97ee3778f9891cde353f9"
+        }
+      ]
+    }
+  ]
+}
