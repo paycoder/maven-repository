@@ -1,0 +1,394 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-multiplatform",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-metadata-0.1.1.jar",
+          "url": "compose-multiplatform-0.1.1.jar",
+          "size": 4655,
+          "sha512": "1802be7cf494eef266ef4b9bd3172c69088bc779335b258bd208d5535215b5c6808cdc127180841bebc8d545242bfc0c4a0cd76de8a275ebd591e98e36ea5105",
+          "sha256": "84882bd7109fc2dae9913d046f9e0f6b0fb10676562adfe8bedd06dbdf01122b",
+          "sha1": "a2fdffb8784fda85b29f6431056d6ff09e0dd204",
+          "md5": "c7d8d654334e42de2134c5acdfd1b659"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "compose-multiplatform-kotlin-0.1.1-sources.jar",
+          "url": "compose-multiplatform-0.1.1-sources.jar",
+          "size": 25490,
+          "sha512": "b26dcf7a5a0e68f234e0b045259eb5a1da14f03e50a338d9053ecfccf4ce4faffb8f51f6a5c9097c7204852242931d40b3e382aaf27284f28242574952847395",
+          "sha256": "0f34e991924d3910c17734c1efa45c79ce060e80fc96ce8fc6dc2f5876d39a64",
+          "sha1": "95b2bb50ff0b8e74cf9ba94e67cc696e4dbf5072",
+          "md5": "a021ac2153edd86ed94d93e082a1f7e0"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-android/0.1.1/compose-multiplatform-android-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-android",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-android/0.1.1/compose-multiplatform-android-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-android",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-android/0.1.1/compose-multiplatform-android-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-android",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-desktop/0.1.1/compose-multiplatform-desktop-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-desktop",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-desktop/0.1.1/compose-multiplatform-desktop-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-desktop",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-desktop/0.1.1/compose-multiplatform-desktop-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-desktop",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosarm64/0.1.1/compose-multiplatform-iosarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosarm64/0.1.1/compose-multiplatform-iosarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosarm64/0.1.1/compose-multiplatform-iosarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosarm64/0.1.1/compose-multiplatform-iosarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iossimulatorarm64/0.1.1/compose-multiplatform-iossimulatorarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iossimulatorarm64/0.1.1/compose-multiplatform-iossimulatorarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iossimulatorarm64/0.1.1/compose-multiplatform-iossimulatorarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iossimulatorarm64/0.1.1/compose-multiplatform-iossimulatorarm64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iossimulatorarm64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosx64/0.1.1/compose-multiplatform-iosx64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosx64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosx64/0.1.1/compose-multiplatform-iosx64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosx64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosx64/0.1.1/compose-multiplatform-iosx64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosx64",
+        "version": "0.1.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-iosx64/0.1.1/compose-multiplatform-iosx64-0.1.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-multiplatform-iosx64",
+        "version": "0.1.1"
+      }
+    }
+  ]
+}

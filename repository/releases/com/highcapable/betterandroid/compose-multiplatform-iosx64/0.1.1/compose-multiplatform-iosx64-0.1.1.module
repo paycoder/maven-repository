@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-multiplatform/0.1.1/compose-multiplatform-0.1.1.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-multiplatform",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-iosX64Main-0.1.1.klib",
+          "url": "compose-multiplatform-iosx64-0.1.1.klib",
+          "size": 84054,
+          "sha512": "780a13a644d3736addb66127da175814b68510c1e324e49699214ffc797c1dc65571923862c6cd546a1322b9f4707b014f3993cd2f06c5d8d0072c82f264d880",
+          "sha256": "40ceed3b350b8ea4a691e1ddb5168872f48e057a85c1df4d79d1b64f18f107fc",
+          "sha1": "0d690158577b471fd08977c87165c4d3c3d91340",
+          "md5": "153c3a2d504cc5774f026a54b49fe39e"
+        },
+        {
+          "name": "compose-multiplatform-iosX64Cinterop-uikitMain-0.1.1.klib",
+          "url": "compose-multiplatform-iosx64-0.1.1-cinterop-uikit.klib",
+          "size": 8524,
+          "sha512": "8e2de232e613824de5fb1c37591ff0b72d0be9d58d6e96d4408c33d3efeddd474d33eca88239301aace376b518b1a19f10ae0a27d64359b56857bd9457b88dcc",
+          "sha256": "e064a8091d494e89045715d73784dc7386aa5fd8b85a02c5243dca26ca9c782c",
+          "sha1": "80890ccbd8256c236a5e221b53b9d9f0f1e67ef6",
+          "md5": "bea993136c0f1452d4594b5525bc398b"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-multiplatform-iosx64-0.1.1-sources.jar",
+          "url": "compose-multiplatform-iosx64-0.1.1-sources.jar",
+          "size": 25490,
+          "sha512": "bc85249685679be988e802dcf52bf703d56a7625157842b3cfb2a2e3ac54d979e9af654057ae357b061e00018373fb9c8fc929aeaed2bd80cae17fa946aa6e8a",
+          "sha256": "6c2545df71e1d10f98fde0b99e88b40bc02aeb168acb9425cc48b22ea638c356",
+          "sha1": "6a17fb649ecb9f1e2c5dba0949a2ee85e5712a35",
+          "md5": "81cefa5bc8eb6b6a18365ce870185c58"
+        }
+      ]
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-0.1.1.kotlin_resources.zip",
+          "url": "compose-multiplatform-iosx64-0.1.1-kotlin_resources.kotlin_resources.zip",
+          "size": 390,
+          "sha512": "ddec7467ea481e05441e2f7c6dff29971c1c85be8b901aab7521f8ce0659897c3a33d46320596b9f923c59674d75b10e319e0fd9086dcdbe40427e9df2c0c270",
+          "sha256": "a6dc96c3c49dcb5197c49b0fc0c1d371a94739770fc5662b3ff8a9e19160dbca",
+          "sha1": "c565b59399407c3d86d6a22cc75e3d30ad20e7f1",
+          "md5": "1d93b517a5ac5a456d83f2782d023e8d"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-iosx64-0.1.1-metadata.jar",
+          "url": "compose-multiplatform-iosx64-0.1.1-metadata.jar",
+          "size": 22961,
+          "sha512": "53b638b953c8c3ce90a79d0cb0336263609bc72e31ced1d22b26866942429723ca0296828adb2b06537034564ce8aafacf643c9301362a2bee326a35b73b1546",
+          "sha256": "f7c1d771a853845d33a4e24fecdd9f020da3bc0a73c1a94560e79deab97c1680",
+          "sha1": "60b53e7677c8e13bffecf27645624833ffafd3d1",
+          "md5": "36a7195652c497b36ccd39dc7b4fbec9"
+        }
+      ]
+    }
+  ]
+}
