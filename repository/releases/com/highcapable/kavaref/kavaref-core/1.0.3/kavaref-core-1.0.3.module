@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-core",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-core-1.0.3.jar",
+          "url": "kavaref-core-1.0.3.jar",
+          "size": 151932,
+          "sha512": "005ca418a3c801169abbae7fa99eaf2b42c9f7a71e622def05e65a68601a203c9d9b1b63688a7bd3c939c80c5b46b55d40496711ab8d26199332e7bf64f0a4a0",
+          "sha256": "41f01e895af6dbcb8a62697a53458146dd484fb9cb9ab77c404bb8dbe9abc8f4",
+          "sha1": "41ee536ce15fc5533e33b179ad98d96965a929c1",
+          "md5": "d74e4dd67112b733ddb5b009bbba028d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-core-1.0.3.jar",
+          "url": "kavaref-core-1.0.3.jar",
+          "size": 151932,
+          "sha512": "005ca418a3c801169abbae7fa99eaf2b42c9f7a71e622def05e65a68601a203c9d9b1b63688a7bd3c939c80c5b46b55d40496711ab8d26199332e7bf64f0a4a0",
+          "sha256": "41f01e895af6dbcb8a62697a53458146dd484fb9cb9ab77c404bb8dbe9abc8f4",
+          "sha1": "41ee536ce15fc5533e33b179ad98d96965a929c1",
+          "md5": "d74e4dd67112b733ddb5b009bbba028d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kavaref-core-1.0.3-sources.jar",
+          "url": "kavaref-core-1.0.3-sources.jar",
+          "size": 39598,
+          "sha512": "74ca52f1681de918da408122ca8b7c180cf28f842b1027dd95e324d79964907ee46700d8bb14acd49b173b4d44480e666603612e81333561a55434eff687bce0",
+          "sha256": "3284c8c6d8e01594b57c9f772ad4dc01cfb7576fc5dfe4bfba8f675c392e7463",
+          "sha1": "42893948042f75d1bf8144fb7bb4fcb30a53403a",
+          "md5": "e84f330aa17b1f0495f8c2e62eb2b411"
+        },
+        {
+          "name": "kavaref-core-1.0.3-sources.jar",
+          "url": "kavaref-core-1.0.3-sources.jar",
+          "size": 39598,
+          "sha512": "74ca52f1681de918da408122ca8b7c180cf28f842b1027dd95e324d79964907ee46700d8bb14acd49b173b4d44480e666603612e81333561a55434eff687bce0",
+          "sha256": "3284c8c6d8e01594b57c9f772ad4dc01cfb7576fc5dfe4bfba8f675c392e7463",
+          "sha1": "42893948042f75d1bf8144fb7bb4fcb30a53403a",
+          "md5": "e84f330aa17b1f0495f8c2e62eb2b411"
+        }
+      ]
+    }
+  ]
+}
