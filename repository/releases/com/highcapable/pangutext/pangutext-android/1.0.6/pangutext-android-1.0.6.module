@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.pangutext",
+    "module": "pangutext-android",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.6.aar",
+          "url": "pangutext-android-1.0.6.aar",
+          "size": 80842,
+          "sha512": "e162219ae4e2b5d6ad58d1e93e9ff142f27ab8a9f997c5b490c7d84173785965b4c7c50c771b541036256e6f4c781b8a52d046a88678ca9e4a0acf7ccd95f150",
+          "sha256": "dc82f9646c2b56cb6512736022c5ce28fb63c176941974451851c1789d04c472",
+          "sha1": "27d5947b8dbee565c28f9a4780978509d8fa3160",
+          "md5": "76dd1777af2779aaca017b9fd3b0924c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.0.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.6.aar",
+          "url": "pangutext-android-1.0.6.aar",
+          "size": 80842,
+          "sha512": "e162219ae4e2b5d6ad58d1e93e9ff142f27ab8a9f997c5b490c7d84173785965b4c7c50c771b541036256e6f4c781b8a52d046a88678ca9e4a0acf7ccd95f150",
+          "sha256": "dc82f9646c2b56cb6512736022c5ce28fb63c176941974451851c1789d04c472",
+          "sha1": "27d5947b8dbee565c28f9a4780978509d8fa3160",
+          "md5": "76dd1777af2779aaca017b9fd3b0924c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pangutext-android-1.0.6-sources.jar",
+          "url": "pangutext-android-1.0.6-sources.jar",
+          "size": 27382,
+          "sha512": "5a9e69a3c52060c5db97da82af02464e4791825f0c2a37e4685d94d7672db7fdb634aa357ea20d2e38f708661731821fda7d1a413a03c503706463312855f1c6",
+          "sha256": "ffcfafef9daca891276e5b9353d83c99268c64211b79eff4a0c69bf2de739714",
+          "sha1": "62fd97e178c852f4f8a07d9d5984c1ef98acd230",
+          "md5": "92e83471e9a145edde3e545d82b02f8b"
+        }
+      ]
+    }
+  ]
+}
