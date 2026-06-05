@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-jvm",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.0.jar",
+          "url": "kavaref-jvm-1.1.0.jar",
+          "size": 11331,
+          "sha512": "c83d87a3f41ce0e16da8730b06ca61fea2f35789d2c65f5f64d57742de4a8ead653222621117980f1a783e809af1003edf8aefb5da7e4bc528844bf31ece458f",
+          "sha256": "a5457000a018ee459f4e4372d979e7589a8d54bb08935fc21c7b662e5ca2920f",
+          "sha1": "07f3fd59bf02a8dabea48c1e38def0441ca31fac",
+          "md5": "f5792b9a689e64d0aaeac48fe21ff831"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.0.jar",
+          "url": "kavaref-jvm-1.1.0.jar",
+          "size": 11331,
+          "sha512": "c83d87a3f41ce0e16da8730b06ca61fea2f35789d2c65f5f64d57742de4a8ead653222621117980f1a783e809af1003edf8aefb5da7e4bc528844bf31ece458f",
+          "sha256": "a5457000a018ee459f4e4372d979e7589a8d54bb08935fc21c7b662e5ca2920f",
+          "sha1": "07f3fd59bf02a8dabea48c1e38def0441ca31fac",
+          "md5": "f5792b9a689e64d0aaeac48fe21ff831"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.0-sources.jar",
+          "url": "kavaref-jvm-1.1.0-sources.jar",
+          "size": 6882,
+          "sha512": "b321e65455f8487cf1c6c4504807a636fb18141cbc2a9e0fd5529a17878528d3bd95125cf554eaecf6fe4d25eef3076d43fff67d0f418dcce87eafd0ddf2cb7a",
+          "sha256": "6ea24818d2472429ac3a03cfa7d01ff0c4a94b33f120235149ab018a9332cd2c",
+          "sha1": "44d92b29530d40d8b1315bb12e8115c4027a9df4",
+          "md5": "4eeeea1b984645115234a9b48812d958"
+        },
+        {
+          "name": "kavaref-jvm-1.1.0-sources.jar",
+          "url": "kavaref-jvm-1.1.0-sources.jar",
+          "size": 6882,
+          "sha512": "b321e65455f8487cf1c6c4504807a636fb18141cbc2a9e0fd5529a17878528d3bd95125cf554eaecf6fe4d25eef3076d43fff67d0f418dcce87eafd0ddf2cb7a",
+          "sha256": "6ea24818d2472429ac3a03cfa7d01ff0c4a94b33f120235149ab018a9332cd2c",
+          "sha1": "44d92b29530d40d8b1315bb12e8115c4027a9df4",
+          "md5": "4eeeea1b984645115234a9b48812d958"
+        }
+      ]
+    }
+  ]
+}
