@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.gropify",
+    "module": "gropify",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gropify-1.0.2.jar",
+          "url": "gropify-1.0.2.jar",
+          "size": 227871,
+          "sha512": "8668a714cdddcff317a7589bf0fe86d7ea93161e818e75fa23f2da50b0c7dac6e888aef6326d711d11acbe510ea2681bf7ddc66faba69de77c7f64c2b8bfa987",
+          "sha256": "7873f7ee307c1683d8625977c5b5f6dda53c8836f72dded39f5dcc4b523e970f",
+          "sha1": "dd647acf384a9fd3cc6fbcae6501f72a2c7ff550",
+          "md5": "0b4c8c0ce43b7f8af62e03310ed6fff5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tools.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "3.1.4"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-jvm"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.palantir.javapoet",
+          "module": "javapoet",
+          "version": {
+            "requires": "0.16.0"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gropify-1.0.2.jar",
+          "url": "gropify-1.0.2.jar",
+          "size": 227871,
+          "sha512": "8668a714cdddcff317a7589bf0fe86d7ea93161e818e75fa23f2da50b0c7dac6e888aef6326d711d11acbe510ea2681bf7ddc66faba69de77c7f64c2b8bfa987",
+          "sha256": "7873f7ee307c1683d8625977c5b5f6dda53c8836f72dded39f5dcc4b523e970f",
+          "sha1": "dd647acf384a9fd3cc6fbcae6501f72a2c7ff550",
+          "md5": "0b4c8c0ce43b7f8af62e03310ed6fff5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gropify-1.0.2-sources.jar",
+          "url": "gropify-1.0.2-sources.jar",
+          "size": 69807,
+          "sha512": "fdcd89447ae737de30675693e49f99a6e91b224ddcfc37c656256c8dcb2290ea4a0b3b414e6e2a2bcec023dee1e89ef912c2b1beda2e2711686bd6667f88402c",
+          "sha256": "0818f6769eba3dd5d860c181f5894263e7eb3f8c710ce53018b97457b39e9995",
+          "sha1": "4a21fff466a6d6c7d97c3b81ce5cdcb87b6b762b",
+          "md5": "23df95ba6aa8948d56c74e557e7b124b"
+        }
+      ]
+    }
+  ]
+}
