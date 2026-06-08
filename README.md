@@ -44,16 +44,6 @@ repositories {
 }
 ```
 
-You can also use [SweetDependency](https://github/HighCapable/SweetDependency) to uniformly manage and set up repositories.
-
-```yaml
-repositories:
-  highcapable-maven-releases:
-    url: https://raw.githubusercontent.com/HighCapable/maven-repository/main/repository/releases
-  highcapable-maven-snapshots:
-    url: https://raw.githubusercontent.com/HighCapable/maven-repository/main/repository/snapshots
-```
-
 ## 使用方法
 
 目录 `repository` 即为存储库，其中包含了 `releases` (发行版) 和 `snapshots` (快照) 两部分，这里存放了所有 Maven 项目的工件。
@@ -91,16 +81,6 @@ repositories {
         setUrl("https://raw.githubusercontent.com/HighCapable/maven-repository/main/repository/snapshots")
     }
 }
-```
-
-你还可以使用 [SweetDependency](https://github/HighCapable/SweetDependency) 统一管理并设置存储库。
-
-```yaml
-repositories:
-  highcapable-maven-releases:
-    url: https://raw.githubusercontent.com/HighCapable/maven-repository/main/repository/releases
-  highcapable-maven-snapshots:
-    url: https://raw.githubusercontent.com/HighCapable/maven-repository/main/repository/snapshots
 ```
 
 ## License
