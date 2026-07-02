@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.betterandroid",
+    "module": "system-extension",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system-extension-1.1.4.aar",
+          "url": "system-extension-1.1.4.aar",
+          "size": 148481,
+          "sha512": "ca372c0f5b41bc51fb30afd8afbe2a9a2ffa0f61710e39d9d4d28373740d68026a02dc3f61d7ee128f2ffeb4424ed826821d8abed7ee261c9821688e5a599b7a",
+          "sha256": "09704258571ddd9b885b1435dbb6ea56962272a04c5e6157742c8daffd2e62d6",
+          "sha1": "3950e6f7490ccbeb9a2caaaef56dddbe5cb92d19",
+          "md5": "75fb994de4735f08e0e2c66577296d60"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "system-extension-1.1.4.aar",
+          "url": "system-extension-1.1.4.aar",
+          "size": 148481,
+          "sha512": "ca372c0f5b41bc51fb30afd8afbe2a9a2ffa0f61710e39d9d4d28373740d68026a02dc3f61d7ee128f2ffeb4424ed826821d8abed7ee261c9821688e5a599b7a",
+          "sha256": "09704258571ddd9b885b1435dbb6ea56962272a04c5e6157742c8daffd2e62d6",
+          "sha1": "3950e6f7490ccbeb9a2caaaef56dddbe5cb92d19",
+          "md5": "75fb994de4735f08e0e2c66577296d60"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "system-extension-1.1.4-sources.jar",
+          "url": "system-extension-1.1.4-sources.jar",
+          "size": 21287,
+          "sha512": "d26a6a94c180a4ef6f454925760f5a63b86575527213c8239f1ca4e94c7ea262421ac509cc67fe2b76ed0a4d0301f27d31515a9f7cc7627bc9bd98024e03bd79",
+          "sha256": "efd1992924aa8a9b775852969eb63a7a0c23bfce034fba5754fac05d364f166e",
+          "sha1": "22c0ad3d3a016dbe0682b3821c9652d73fdda240",
+          "md5": "47a905263cdb5498687bae287d9bb5c9"
+        }
+      ]
+    }
+  ]
+}
