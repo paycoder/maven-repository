@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-bom",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-compiler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-runtime",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-runtime-attribute",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension-betterandroid",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-foundation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-androidx",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-material",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-compiler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-runtime",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-runtime-attribute",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension-betterandroid",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-extension-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-foundation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-androidx",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-widget-material",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-extension-compose",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-compose-1.1.0.aar",
+          "url": "hikage-extension-compose-1.1.0.aar",
+          "size": 10870,
+          "sha512": "9747e6060fec3e25c3b6c46bb0793d77faee665d3b7633f07e02c71df107e696ea1fd34886f368a3f92ea902492514f6c40cc3ade51a619fb4b93a9bbb405df2",
+          "sha256": "f9a3a69bd27897cb8ad81dc2b1f05ab28d83820824b1870aecc3e13069b56788",
+          "sha1": "2d356c031659b99b78fa066ad45b885cdb6de9e0",
+          "md5": "e403a80a5b94d76835054aa4ae216772"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-compose-1.1.0.aar",
+          "url": "hikage-extension-compose-1.1.0.aar",
+          "size": 10870,
+          "sha512": "9747e6060fec3e25c3b6c46bb0793d77faee665d3b7633f07e02c71df107e696ea1fd34886f368a3f92ea902492514f6c40cc3ade51a619fb4b93a9bbb405df2",
+          "sha256": "f9a3a69bd27897cb8ad81dc2b1f05ab28d83820824b1870aecc3e13069b56788",
+          "sha1": "2d356c031659b99b78fa066ad45b885cdb6de9e0",
+          "md5": "e403a80a5b94d76835054aa4ae216772"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-extension-compose-1.1.0-sources.jar",
+          "url": "hikage-extension-compose-1.1.0-sources.jar",
+          "size": 5580,
+          "sha512": "44d5b1e8d634129aaa7d7e80709566e9243d3b75a19ac1109d8351348dc1d756f3d8df7d643ad685b185dab627f8a5fb93a3c14e5ec4886a1b08669061b6a972",
+          "sha256": "73f522240e370c627f961d06a43b3dcdb17d1452665057e5fc1b39f5b8fd384e",
+          "sha1": "ab9ebf4bb7378dd9776a9656a379151a6e26e40a",
+          "md5": "43c963a9acf9faa652bfa13b1853ed2f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-compiler",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-compiler-1.1.0.jar",
+          "url": "hikage-compiler-1.1.0.jar",
+          "size": 90450,
+          "sha512": "2374a1b638c19ab4ea402c69c7a8e855221e5be40ae362ec3921d22e41d5139549b586f562485d062032a2845b147419b51126f47327d1663475a1868eca0f25",
+          "sha256": "737d817343895c755c92bc0a086a6e2c0b32d1062eea8d705dc011a0028af112",
+          "sha1": "2ea703cb1c30bad1d3f93a4d418d66a06f3f5669",
+          "md5": "2429550e577c27ac26649acbedbf8327"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service-annotations",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-compiler-1.1.0.jar",
+          "url": "hikage-compiler-1.1.0.jar",
+          "size": 90450,
+          "sha512": "2374a1b638c19ab4ea402c69c7a8e855221e5be40ae362ec3921d22e41d5139549b586f562485d062032a2845b147419b51126f47327d1663475a1868eca0f25",
+          "sha256": "737d817343895c755c92bc0a086a6e2c0b32d1062eea8d705dc011a0028af112",
+          "sha1": "2ea703cb1c30bad1d3f93a4d418d66a06f3f5669",
+          "md5": "2429550e577c27ac26649acbedbf8327"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-compiler-1.1.0-sources.jar",
+          "url": "hikage-compiler-1.1.0-sources.jar",
+          "size": 15950,
+          "sha512": "5e41065b7fa46575083290bfb15d716438e709db0c3aa0c9e4261e11eee6e3b39ff7f5677dd1da1cd31c98e99e0c03c705ff99b3d26ce60928e7045d5235a705",
+          "sha256": "245c0106abeda84d21d1a84048ff1c9957aafdcb4eac0104d120c5b388a4cf6c",
+          "sha1": "a2f0cce18fd24967f4ceaac6a1cbc11bf4d6f5fc",
+          "md5": "36d8aeabcd14dee2922ab142e1ff1cbb"
+        }
+      ]
+    }
+  ]
+}
