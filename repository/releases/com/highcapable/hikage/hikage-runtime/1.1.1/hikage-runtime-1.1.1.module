@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-runtime",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-runtime-1.1.1.aar",
+          "url": "hikage-runtime-1.1.1.aar",
+          "size": 58158,
+          "sha512": "431f28dea7e35b2c2bca815142bc00a1d3bbbe086953c40e72d47fccad17afc023cec80209ae53751a1c36db5d5d5d7f97405f5b42a5a5f694d6c6251676c70b",
+          "sha256": "05da20ad041a3d8d476f53712c10a62128373a1d7d22529e83e83cdad024a60f",
+          "sha1": "e365557acdda4e13b8c4cc3fdb81544f2aeaf0cb",
+          "md5": "4f627278719b62661ebd91efe9b110de"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.9.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-runtime-1.1.1.aar",
+          "url": "hikage-runtime-1.1.1.aar",
+          "size": 58158,
+          "sha512": "431f28dea7e35b2c2bca815142bc00a1d3bbbe086953c40e72d47fccad17afc023cec80209ae53751a1c36db5d5d5d7f97405f5b42a5a5f694d6c6251676c70b",
+          "sha256": "05da20ad041a3d8d476f53712c10a62128373a1d7d22529e83e83cdad024a60f",
+          "sha1": "e365557acdda4e13b8c4cc3fdb81544f2aeaf0cb",
+          "md5": "4f627278719b62661ebd91efe9b110de"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-runtime-1.1.1-sources.jar",
+          "url": "hikage-runtime-1.1.1-sources.jar",
+          "size": 10763,
+          "sha512": "fd392bfbf11f59d76cfdf8cee8a826703e17334b198a76aebd0bae545b95154ce2c91606406d23918ce615b0dae1d19780462562099280b0227b7f0b3d968426",
+          "sha256": "10935c121adef835d926db55ef70014e048757bbcc12fcd8ec9490ee67cfaf1a",
+          "sha1": "a84631c05bc1266226b5e6776a68e364ed4b1b81",
+          "md5": "f2e4e7d6d308123a8e3001ba7a443279"
+        }
+      ]
+    }
+  ]
+}

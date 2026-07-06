@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-declaration-gradle-plugin",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "hikage-declaration-gradle-plugin-1.0.1.jar",
+          "url": "hikage-declaration-gradle-plugin-1.0.1.jar",
+          "size": 31614,
+          "sha512": "61702fa989f1a679e8fdd6292a2d4d9f3494a221ebbd6d83919bbef7764706dbfe8cb44864edc1e7de9c7752828e424fb46f124ce98dc7d9b6aa13658e34f375",
+          "sha256": "adaf631d4c33053fcef243f6e9ae150f03648857ee0d2efce76af0ff27c2cb7a",
+          "sha1": "3d0db51bda8445a4e3376bdac640c618bc14c1a6",
+          "md5": "dff95b9470fe2bd050236b9453ccae37"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "hikage-declaration-gradle-plugin-1.0.1.jar",
+          "url": "hikage-declaration-gradle-plugin-1.0.1.jar",
+          "size": 31614,
+          "sha512": "61702fa989f1a679e8fdd6292a2d4d9f3494a221ebbd6d83919bbef7764706dbfe8cb44864edc1e7de9c7752828e424fb46f124ce98dc7d9b6aa13658e34f375",
+          "sha256": "adaf631d4c33053fcef243f6e9ae150f03648857ee0d2efce76af0ff27c2cb7a",
+          "sha1": "3d0db51bda8445a4e3376bdac640c618bc14c1a6",
+          "md5": "dff95b9470fe2bd050236b9453ccae37"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-declaration-gradle-plugin-1.0.1-sources.jar",
+          "url": "hikage-declaration-gradle-plugin-1.0.1-sources.jar",
+          "size": 6579,
+          "sha512": "46fc562ff8141d3a35b3713527a63f4c7e1515baf9f8103a8bd386a565337053acb98c6f30ded154fa0c40e2d34f98e89a16ccceb0cfcd34692b04c16e441da5",
+          "sha256": "081cabd94f3d123e8201d31e25940ee16f82dfba7819b743adae75d49b5ac9d8",
+          "sha1": "df9635a4087ee5237b463d8af808645f724cd4eb",
+          "md5": "0eb7e36bc02eae6b968c08f5515a115a"
+        }
+      ]
+    }
+  ]
+}

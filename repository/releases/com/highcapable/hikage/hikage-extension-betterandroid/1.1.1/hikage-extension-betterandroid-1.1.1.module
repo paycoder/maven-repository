@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-extension-betterandroid",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-betterandroid-1.1.1.aar",
+          "url": "hikage-extension-betterandroid-1.1.1.aar",
+          "size": 10955,
+          "sha512": "1ba2bef2640e3aa7b04f3b4be5f32e2eb77d57b5efe613560690df33ed710cfaa41f7c0234e1f3549172786dea8db4c76e4adf2c49b32f9d6bfea9c07d2a3604",
+          "sha256": "4d1d2ba425d057cadc4a7683377841d38db7247376f28137deb9770444d29c33",
+          "sha1": "374744b3786286b951676243f7c804403f187e39",
+          "md5": "6c43c99cc7de8f48df5c791f741de7ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-component-adapter"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-betterandroid-1.1.1.aar",
+          "url": "hikage-extension-betterandroid-1.1.1.aar",
+          "size": 10955,
+          "sha512": "1ba2bef2640e3aa7b04f3b4be5f32e2eb77d57b5efe613560690df33ed710cfaa41f7c0234e1f3549172786dea8db4c76e4adf2c49b32f9d6bfea9c07d2a3604",
+          "sha256": "4d1d2ba425d057cadc4a7683377841d38db7247376f28137deb9770444d29c33",
+          "sha1": "374744b3786286b951676243f7c804403f187e39",
+          "md5": "6c43c99cc7de8f48df5c791f741de7ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-extension-betterandroid-1.1.1-sources.jar",
+          "url": "hikage-extension-betterandroid-1.1.1-sources.jar",
+          "size": 8939,
+          "sha512": "e5ce556da5f5c72da8594a97543eeb13bb0c3215a78e4195ae42bb778e9f768dc084413069bc7ea773a4f49dfa1944f36d62c04684f9b5263f8edb2b36c051d2",
+          "sha256": "2d6d02a4d800ceb1559f6c20feb84b498410b0b113efd5dad7d840386844501c",
+          "sha1": "9cedceda0dc0d485f80f2c0660136a87bebbbf12",
+          "md5": "24c091d6084de61bd57e372028438391"
+        }
+      ]
+    }
+  ]
+}

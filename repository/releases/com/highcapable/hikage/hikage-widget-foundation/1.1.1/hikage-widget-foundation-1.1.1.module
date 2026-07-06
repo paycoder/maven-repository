@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-widget-foundation",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hikage-widget-foundation-1.1.1.jar",
+          "url": "hikage-widget-foundation-1.1.1.jar",
+          "size": 2307,
+          "sha512": "6e30a47788de6458848b6432680396c650d9db5b5c4484e712cbad37b58bc68218a5d16330bbe496e3e819769641c5a97084f734993cd5669639f46492d7533e",
+          "sha256": "c649bb07f524f9815f6f64fe984f576e7aef2ce866c382c11de57706870b16f9",
+          "sha1": "c035de1968fb64531816e2545bd1794d3e76d105",
+          "md5": "20a5d6cecffc75171ad2607e2d955ebc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-widget-foundation-1.1.1.jar",
+          "url": "hikage-widget-foundation-1.1.1.jar",
+          "size": 2307,
+          "sha512": "6e30a47788de6458848b6432680396c650d9db5b5c4484e712cbad37b58bc68218a5d16330bbe496e3e819769641c5a97084f734993cd5669639f46492d7533e",
+          "sha256": "c649bb07f524f9815f6f64fe984f576e7aef2ce866c382c11de57706870b16f9",
+          "sha1": "c035de1968fb64531816e2545bd1794d3e76d105",
+          "md5": "20a5d6cecffc75171ad2607e2d955ebc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-widget-foundation-1.1.1-sources.jar",
+          "url": "hikage-widget-foundation-1.1.1-sources.jar",
+          "size": 2307,
+          "sha512": "6e30a47788de6458848b6432680396c650d9db5b5c4484e712cbad37b58bc68218a5d16330bbe496e3e819769641c5a97084f734993cd5669639f46492d7533e",
+          "sha256": "c649bb07f524f9815f6f64fe984f576e7aef2ce866c382c11de57706870b16f9",
+          "sha1": "c035de1968fb64531816e2545bd1794d3e76d105",
+          "md5": "20a5d6cecffc75171ad2607e2d955ebc"
+        }
+      ]
+    }
+  ]
+}

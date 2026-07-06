@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.highcapable.hikage</groupId>
+  <artifactId>hikage-gradle-plugin</artifactId>
+  <version>1.0.1</version>
+  <name>Hikage</name>
+  <description>A real-time Android View runtime powered by Kotlin DSL.</description>
+  <url>https://github.com/BetterAndroid/Hikage</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/BetterAndroid/Hikage/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>0</id>
+      <name>fankes</name>
+      <email>qzmmcn@163.com</email>
+      <url>https://github.com/fankes</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/BetterAndroid/Hikage.git</connection>
+    <developerConnection>scm:git:ssh://github.com/BetterAndroid/Hikage.git</developerConnection>
+    <url>https://github.com/BetterAndroid/Hikage</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.devtools.ksp</groupId>
+      <artifactId>symbol-processing-gradle-plugin</artifactId>
+      <version>2.3.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.lingala.zip4j</groupId>
+      <artifactId>zip4j</artifactId>
+      <version>2.11.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
